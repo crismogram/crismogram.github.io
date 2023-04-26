@@ -24,7 +24,4 @@ classDiagram
 		#ProtectedProperty: string
 		%InternalProperty: string
 }
-
-
-
 ```
