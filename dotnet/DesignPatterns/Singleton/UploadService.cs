@@ -4,7 +4,7 @@ sealed class UploadService{
     public UploadService(){}
     public int Id { get; private set; }
     private static readonly object _lock = new object();
-    private static UploadService _instance;
+    private static UploadService? _instance;
 
     public static UploadService GetInstance(int id){
         if(_instance == null){
