@@ -1,0 +1,32 @@
+#netflixdiv {
+    letter-spacing: 4px;
+    background: #b7111b;
+    color: #fafbf4;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+#netflixdiv h1 {
+    font-size: 80px;
+    text-shadow: 5px -5px 5px black;
+}
+
+#netflixdiv2 {
+    letter-spacing: 4px;
+    background: whitesmoke;
+    color: #fafbf4;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+#netflixdiv2 h1 {
+    font-size: 80px;
+    text-shadow: 0px 0px 20px black;
+}
+
+
+
+
+
