@@ -1,0 +1,38 @@
+.weapon {
+    border: 5px solid grey;
+    height: 340px;
+    /*
+    Challenge:
+    Follow my orders on where we should
+    leave our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.armor {
+    border: 5px solid grey;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.empty {
+    margin-top: 10px;
+}
+
+
+img {
+    width: 100px;
+    border:1px solid gray;
+    margin: 5px;
+    border-radius: 5px;
+}

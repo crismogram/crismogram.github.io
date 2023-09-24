@@ -1,0 +1,25 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: white;
+    
+    
+
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 2px black;
+}
+
+
+
+#jakeimg {
+    border-radius: 50%;
+    width: 35%;
+    border: 6px solid #EFb0c9;
+}
+
+/*
+ping
+*/
