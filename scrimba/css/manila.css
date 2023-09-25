@@ -1,0 +1,131 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+:root {
+    --red: #E63946;
+    --light: #F1FAEE;
+    --aqua: #A8DADC;
+    --lightblue: #457B9D;
+    --darkblue: #1D3557;
+}
+
+
+
+body {
+    font-family: 'Inclusive Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(var(--light), var(--lightblue));
+}
+
+.section {
+    width: 720px;
+    
+}
+
+#hero {
+    height: 350px;
+    background-image: url(../images/masbateassets/sandbar.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: inherit;
+}
+
+#hero h1 {
+    background-color: #1D3557;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#hero h2{
+    margin-top: 0;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+
+#activities {
+    text-align: center;
+}
+
+#activities h3{
+    margin: 40px 0 40px 0;
+}
+
+#activity-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#activity-items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+#activityimg1:hover {
+    content: url(../images/masbateassets/sandbar3.jpg);
+}
+
+#activityimg2:hover {
+    content: url(../images/masbateassets/rodeo3.jpg);
+}
+
+#activityimg3:hover {
+    content: url(../images/masbateassets/Halea\ Nature\ Park\ 1.jpg);
+}
+
+#activity-items h3 {
+    height: 30px;
+}
+
+#activity-items .activity {
+    width: 200px;
+    margin: 20px;
+}
+
+#guide {
+    margin: 50px 0 50px 0;
+    width: 500px;
+    display: flex;
+    background-color: var(--aqua);
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(var(--light), var(--lightblue));
+}
+
+#guide img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+#guide-desc {
+    text-align: center;
+    width: 250px;
+    margin: 15px;
+}
+
+#more-info {
+    width: 900px;
+    text-align: center;
+}
+
+#masbateimg {
+    width: 900px;
+}
